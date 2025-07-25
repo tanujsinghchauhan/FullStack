@@ -1,8 +1,45 @@
-# React + Vite
+# SpotFindr – Venue Booking System (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SpotFindr is a modern venue booking system that allows users to reserve venues based on availability by date and time. It includes user and admin login functionalities, with a clean and responsive UI. This repository contains only the **frontend** code, built using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Responsive user interface built with React
+- ✅ User login and signup system
+- ✅ Admin login for privileged access
+- ✅ Venue availability based on selected date and time
+- ✅ Booking functionality with dynamic feedback
+- ✅ Toggleable details for venue cards
+- ✅ Form validations and toast messages
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** (Vite)
+- **Tailwind CSS**
+- **React Router DOM**
+- **React Icons**
+
+
+## 🔐 User Roles
+
+### 👤 User
+- Can register and log in
+- Browse and filter venues
+- Check real-time availability
+- Book venues for specific date and time
+
+### 🛠️ Admin
+- Can log in using admin credentials
+- Admin-specific controls are managed via backend (not included in this repo)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/tanujsinghchauhan/SpotFindr---FullStack-Development-Hackathon-Project-Frontend-
+cd SpotFindr---FullStack-Development-Hackathon-Project-Frontend-
